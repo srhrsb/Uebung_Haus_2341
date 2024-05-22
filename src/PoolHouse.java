@@ -15,5 +15,10 @@ public class PoolHouse extends House {
         return this.poolSize;
     }
 
-
+    @Override
+    public void addBalcony() {
+        super.addBalcony();//nutzt die Implementierung aus der Oberklasse
+        //und fügt neue Funktionalität hinzu
+        System.out.println("Es wird ein Poolhaus Balkon hinzugefügt");
+    }
 }

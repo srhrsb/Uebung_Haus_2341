@@ -16,6 +16,10 @@ public class House {
         this.floors = floors;
     }
 
+    public void addBalcony(){
+        this.balcony = true;
+    }
+
     public int getSpace() {
         return space;
     }
