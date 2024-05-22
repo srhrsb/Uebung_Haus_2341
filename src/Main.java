@@ -8,6 +8,5 @@ public class Main {
         System.out.println(poolHouse.getBalcony());
         poolHouse.setBalcony(true);
         System.out.println(poolHouse.getBalcony());
-
     }
 }
